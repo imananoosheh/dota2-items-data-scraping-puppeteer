@@ -13,20 +13,23 @@ async function run() {
       let mainCatagory =
         itemlist.previousSibling.previousSibling.previousSibling.previousSibling?.textContent.trim() ||
         "null";
-      return Array.from(itemlist.querySelectorAll("div"), (div) => ({
+        const item = Array.from(itemlist.querySelectorAll("div"), (div) => ({
         name: div.querySelectorAll("a")[1].title,
         mainCatagory: mainCatagory,
         subCatagory: subCatagory,
         itemURL: div.querySelectorAll("a")[0].href,
         thumbnailURL:
-          div.querySelector("a img").getAttribute("data-lazyimage") ||
-          div.querySelector("a img").getAttribute("src"),
+          div.querySelector("a img").getAttribute("data-src").split('scale-to-width-down')[0] || 'no src' ,
         goldCost:
           div.querySelectorAll("b")[0]?.textContent.trim() || "0",
       }));
+
+      return item
     })
   );
-//   }
+
+//  TODO:
+  //   }
 //   "name": "Aghanim's Blessing - Roshan",
 //   "mainCatagory": "null",
 //   "subCatagory": "Roshan Drop",
@@ -34,6 +37,16 @@ async function run() {
 //   "thumbnailURL": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
 //   "goldCost": "0"
 //  },
+
+//  TODO:
+// {
+//   "name": "Venom Gland",
+//   "mainCatagory": "null",
+//   "subCatagory": "Unreleased",
+//   "itemURL": "https://dota2.fandom.com/wiki/Venom_Gland",
+//   "thumbnailURL": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+//   "goldCost": "0"
+// },
 
   console.log(itemLists);
 
