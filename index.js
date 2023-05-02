@@ -1,25 +1,45 @@
 const puppeteer = require("puppeteer");
+const fs = require("fs");
 
 async function run() {
-  const browser = await puppeteer.launch({headless: 'new'});
+  const browser = await puppeteer.launch({ headless: "new" });
   const page = await browser.newPage();
-  await page.goto('https://dota2.fandom.com/wiki/Items');
+  await page.goto("https://dota2.fandom.com/wiki/Items");
 
-  const itemLists = await page.evaluate(()=> Array.from(document.querySelectorAll('.itemlist'),(e)=>({
-    name: e.querySelectorAll('a')[0].title,
-    itemURL: e.querySelectorAll('a')[0].href,
-    thumbnailURL: e.querySelectorAll('a img')[0].src.split('scale-to-width-down')[0],
-    goldCost: e.querySelectorAll('b')[0]?.textContent || "Not patched."
-  })))
+  const itemLists = await page.evaluate(() =>
+    Array.from(document.querySelectorAll(".itemlist"), (itemlist) => {
+      let subCatagory =
+        itemlist.previousSibling.previousSibling?.textContent.trim() || "null";
+      let mainCatagory =
+        itemlist.previousSibling.previousSibling.previousSibling.previousSibling?.textContent.trim() ||
+        "null";
+      return Array.from(itemlist.querySelectorAll("div"), (div) => ({
+        name: div.querySelectorAll("a")[1].title,
+        mainCatagory: mainCatagory,
+        subCatagory: subCatagory,
+        itemURL: div.querySelectorAll("a")[0].href,
+        thumbnailURL:
+          div.querySelector("a img").getAttribute("data-lazyimage") ||
+          div.querySelector("a img").getAttribute("src"),
+        goldCost:
+          div.querySelectorAll("b")[0]?.textContent.trim() || "0",
+      }));
+    })
+  );
+//   }
+//   "name": "Aghanim's Blessing - Roshan",
+//   "mainCatagory": "null",
+//   "subCatagory": "Roshan Drop",
+//   "itemURL": "https://dota2.fandom.com/wiki/Aghanim%27s_Blessing_-_Roshan",
+//   "thumbnailURL": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
+//   "goldCost": "0"
+//  },
 
-//   {
-//     name: div.querySelectorAll('a')[0].title
-//     itemURL: div.querySelectorAll('a')[0].href
-//     thumbnailURL: div.querySelectorAll('a img')[0].src.split('scale-to-width-down')[0]
-//     goldCost: div.querySelectorAll('b span')[0].innerText
-// }
+  console.log(itemLists);
 
-  console.log(itemLists)
+  fs.writeFile("dota-item.json", JSON.stringify(itemLists), (err) => {
+    if (err) throw err;
+  });
 
   await browser.close();
 }
