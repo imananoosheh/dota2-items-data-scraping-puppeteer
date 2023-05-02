@@ -28,28 +28,6 @@ async function run() {
     })
   );
 
-//  TODO:
-  //   }
-//   "name": "Aghanim's Blessing - Roshan",
-//   "mainCatagory": "null",
-//   "subCatagory": "Roshan Drop",
-//   "itemURL": "https://dota2.fandom.com/wiki/Aghanim%27s_Blessing_-_Roshan",
-//   "thumbnailURL": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
-//   "goldCost": "0"
-//  },
-
-//  TODO:
-// {
-//   "name": "Venom Gland",
-//   "mainCatagory": "null",
-//   "subCatagory": "Unreleased",
-//   "itemURL": "https://dota2.fandom.com/wiki/Venom_Gland",
-//   "thumbnailURL": "data:image/gif;base64,R0lGODlhAQABAIABAAAAAP///yH5BAEAAAEALAAAAAABAAEAQAICTAEAOw%3D%3D",
-//   "goldCost": "0"
-// },
-
-  console.log(itemLists);
-
   fs.writeFile("dota-item.json", JSON.stringify(itemLists), (err) => {
     if (err) throw err;
   });
