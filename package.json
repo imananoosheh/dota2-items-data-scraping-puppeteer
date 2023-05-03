@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "clean": "node clean-data.js"
+    "clean": "node clean-data.js",
+    "extract": "node item-recipe-extractor.js"
   },
   "keywords": [],
   "author": "",
