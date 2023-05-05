@@ -5,8 +5,7 @@ const dotaItemData = require("./dota-item-cleaned-phase1.json");
 async function getRecipes() {
   for (let i = 8; i < 11; i++) {
     let currentSubCat = dotaItemData[i];
-    let a = i===8? 8 : 0; 
-    for (let j = a; j < currentSubCat.length; j++) {
+    for (let j = 0; j < currentSubCat.length; j++) {
       const currentItemURL = currentSubCat[j]["itemURL"];
       const currentItemName = currentSubCat[j]["name"];
       console.log(`entring item:${currentItemName} url:`, currentItemURL);
