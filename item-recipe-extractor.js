@@ -1,37 +1,38 @@
 const puppeteer = require("puppeteer");
 const fs = require("fs");
-const dotaItemData = require('./dota-item-cleaned-phase1.json')
+const dotaItemData = require("./dota-item-cleaned-phase1.json");
 
-async function getRecipes(){
-    const browser = await puppeteer.launch({ headless: "new" });
-    const page = await browser.newPage();
+async function getRecipes() {
+  for (let i = 8; i < 11; i++) {
+    let currentSubCat = dotaItemData[i];
+    let a = i===8? 8 : 0; 
+    for (let j = a; j < currentSubCat.length; j++) {
+      const currentItemURL = currentSubCat[j]["itemURL"];
+      const currentItemName = currentSubCat[j]["name"];
+      console.log(`entring item:${currentItemName} url:`, currentItemURL);
+      const browser = await puppeteer.launch({ headless: "new" });
+      const page = await browser.newPage();
+      await page.goto(currentItemURL, { waitUntil: "load", timeout: 0 });
 
-    for(let i=0; i<11; i++){
-        let currentSubCat = dotaItemData[i]
-        for(let j=0; j< currentSubCat.length; j++){
-            const currentItemURL = currentSubCat[j]['itemURL']
-            console.log('entring this url:',currentItemURL)
-            await page.goto(currentItemURL);
-
-            let ingredients = await page.evaluate(()=> {
-                let currentAnchors = Array.from(document.querySelectorAll('tbody tbody tr:last-child')[0].querySelectorAll('a'), (aTag,k)=>{
-                    console.log(aTag)
-                    return {
-                        name: aTag.getAttribute('title').split('(')[0].trim(),
-                        itemURL: aTag.getAttribute('href').trim(),
-                        thumbnailURL: aTag.querySelector('img').src.split('scale-to-width-down')[0],
-                    }
-                })
-                console.log(currentAnchors)
-                let itemMadeOf = currentAnchors.splice(0,1)
-                let record = {}
-                record[itemMadeOf[0].name] = currentAnchors
-                return record
-            })
-            console.log(ingredients)
-        }
+      //   const randomTime = Math.floor((Math.random() * 1000) + 500);
+      //   await page.waitFor(randomTime);
+      const ingredients = await page.evaluate(() =>
+        Array.from(
+          document
+            .querySelectorAll("tbody tbody tr:last-child")[0]
+            .querySelectorAll("a"),
+          (aTag) => aTag.getAttribute("title").split("(")[0].trim()
+        )
+      );
+      let record = {};
+      record[currentItemName] = ingredients;
+      fs.appendFile("dota-item-recipes.json", JSON.stringify(record), (err) => {
+        if (err) throw err;
+      });
+      console.log(ingredients);
+      await browser.close();
     }
+  }
+  return true;
 }
-getRecipes()
-
-//TODO: Add Differentiator for "UsedOf" and "Components" from alt text of img between anchor tags
+getRecipes();
