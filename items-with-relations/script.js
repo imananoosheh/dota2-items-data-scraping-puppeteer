@@ -17,6 +17,7 @@ const fs = require("fs");
 //     })
 // })
 
+//-------------------------------------------------------------
 // 2nd phase of script
 // fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-recipes.json', 'utf8', (err, data) => {
 //     if(err){
@@ -39,8 +40,8 @@ const fs = require("fs");
 //     }
 // })
 
+//-------------------------------------------------------------
 // 3rd phase of script
-
 // fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-cleaned-phase1-flatItems.json', 'utf8', (err, data) => {
 //     if(err){
 //         console.log(err)
@@ -70,17 +71,78 @@ const fs = require("fs");
 //     })
 // })
 
+//-------------------------------------------------------------
 //4th phase of data integiration
 
-const items = require("../dota-item-cleaned-phase1.json");
-// slicing the first 16th catagories is meant to only get the items that are currently in the game.
-const currentlyAvailableItems = items.slice(1, 16).flat(Infinity);
-fs.writeFile(
-  "/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/flat-items-wo-relations.json",
-  JSON.stringify(currentlyAvailableItems),
-  (err) => {
-    if (err) {
-      console.log(err);
-    }
-  }
-);
+// const items = require("../dota-item-cleaned-phase1.json");
+// // slicing the first 16th catagories is meant to only get the items that are currently in the game.
+// const currentlyAvailableItems = items.slice(1, 16).flat(Infinity);
+// fs.writeFile(
+//   "/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/flat-items-wo-relations.json",
+//   JSON.stringify(currentlyAvailableItems),
+//   (err) => {
+//     if (err) {
+//       console.log(err);
+//     }
+//   }
+// );
+
+//-------------------------------------------------------------
+//  5th phase:  data preparing and cleaning
+// fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-recipes.json', 'utf8', (err, data)=> {
+//     if(err){
+//         console.log(err)
+//         return
+//     }
+//     const recipes = JSON.parse(data)
+//     let result = {}
+//     for (const recipe of recipes){
+//         const [key, value] = Object.entries(recipe)[0]
+//         result[key] = value
+//     }
+//     fs.writeFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/flat-items-relations-map.json', JSON.stringify(result), err => {
+//         if(err){
+//             console.log(err)
+//             return
+//         }
+//     })
+// })
+
+//-------------------------------------------------------------
+//  6th phase of data integration
+//  adding relations between items as 2 type of relationships
+//  type 1: item#1 ----isMadeOf----> item#2
+//  type 2: item#1 -----canMake----> item#2
+
+// const items = require("./flat-items-wo-relations.json");
+// const relations = require("./flat-items-relations-map.json");
+
+let sampleData = {
+  "Satanic": ["Satanic", "Morbid Mask", "Claymore", "Reaver"],
+  "Force Staff": [
+    "Hurricane Pike",
+    "Force Staff",
+    "Staff of Wizardry",
+    "Fluffy Hat",
+    "Recipe",
+  ],
+  "Circlet": [
+    "Bracer",
+    "Wraith Band",
+    "Null Talisman",
+    "Urn of Shadows",
+    "Circlet",
+  ],
+};
+let sampleResult = {}
+for (const [key, value] of Object.entries(sampleData)) {
+  const itemIndex = value.indexOf(key);
+  let isMadeOf = [],
+    canMake = [];
+    isMadeOf = value.splice(itemIndex+1)
+   value.length>0 ? value.pop() : []
+    canMake = value
+    sampleResult[`${key}-canMake`] = canMake
+    sampleResult[`${key}-isMadeOf`] = isMadeOf
+}
+console.log(sampleResult)
