@@ -109,40 +109,73 @@ const fs = require("fs");
 // })
 
 //-------------------------------------------------------------
-//  6th phase of data integration
+//  6th phase of data integration of ***sample data***
 //  adding relations between items as 2 type of relationships
 //  type 1: item#1 ----isMadeOf----> item#2
 //  type 2: item#1 -----canMake----> item#2
 
-// const items = require("./flat-items-wo-relations.json");
-// const relations = require("./flat-items-relations-map.json");
+// let sampleData = {
+//   "Satanic": ["Satanic", "Morbid Mask", "Claymore", "Reaver"],
+//   "Force Staff": [
+//     "Hurricane Pike",
+//     "Force Staff",
+//     "Staff of Wizardry",
+//     "Fluffy Hat",
+//     "Recipe",
+//   ],
+//   "Circlet": [
+//     "Bracer",
+//     "Wraith Band",
+//     "Null Talisman",
+//     "Urn of Shadows",
+//     "Circlet",
+//   ],
+// };
+// let sampleResult = {}
+// for (const [key, value] of Object.entries(sampleData)) {
+//   const itemIndex = value.indexOf(key);
+//   let isMadeOf = [],
+//     canMake = [];
+//     isMadeOf = value.splice(itemIndex+1)
+//    value.length>0 ? value.pop() : []
+//     canMake = value
+//     sampleResult[`${key}-canMake`] = canMake
+//     sampleResult[`${key}-isMadeOf`] = isMadeOf
+// }
+// console.log(sampleResult)
 
-let sampleData = {
-  "Satanic": ["Satanic", "Morbid Mask", "Claymore", "Reaver"],
-  "Force Staff": [
-    "Hurricane Pike",
-    "Force Staff",
-    "Staff of Wizardry",
-    "Fluffy Hat",
-    "Recipe",
-  ],
-  "Circlet": [
-    "Bracer",
-    "Wraith Band",
-    "Null Talisman",
-    "Urn of Shadows",
-    "Circlet",
-  ],
-};
-let sampleResult = {}
-for (const [key, value] of Object.entries(sampleData)) {
-  const itemIndex = value.indexOf(key);
-  let isMadeOf = [],
-    canMake = [];
-    isMadeOf = value.splice(itemIndex+1)
-   value.length>0 ? value.pop() : []
-    canMake = value
-    sampleResult[`${key}-canMake`] = canMake
-    sampleResult[`${key}-isMadeOf`] = isMadeOf
+
+//-------------------------------------------------------------
+//  7th phase of data integration of real data
+//  adding relations between items as 2 type of relationships
+//  type 1: item#1 ----isMadeOf----> item#2
+//  type 2: item#1 -----canMake----> item#2
+let items = require("./flat-items-wo-relations.json");
+const relations = require("./flat-items-relations-map.json");
+
+for(const item of items){
+    let isMadeOf = []
+    let canMake = []
+    const itemName = item['name']
+    console.log(itemName)
+    if(item['mainCatagory'] == 'Neutral Items'){
+        item['canMake'] = canMake
+        item['isMadeOf'] = isMadeOf
+        continue
+    }
+    let itemRelations = relations[itemName]
+    const itemIndex = itemRelations.indexOf(itemName);
+    isMadeOf = itemRelations.splice(itemIndex+1)
+    if(itemRelations.length > 0){
+        itemRelations.pop()
+    }
+    canMake = itemRelations
+    item['canMake'] = canMake
+    item['isMadeOf'] = isMadeOf
 }
-console.log(sampleResult)
+fs.writeFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/final-items-with-relations.json', JSON.stringify(items), err => {
+    if(err){
+        console.log(err)
+        return;
+    }
+})
