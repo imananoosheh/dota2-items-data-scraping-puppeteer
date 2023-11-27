@@ -1,4 +1,4 @@
-const fs = require('fs')
+const fs = require("fs");
 // let dotaJSONData, flatItems
 // // we need the first 16 list.
 // fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-cleaned-phase1.json', 'utf8', (err,data) => {
@@ -39,34 +39,48 @@ const fs = require('fs')
 //     }
 // })
 
-
 // 3rd phase of script
 
-fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-cleaned-phase1-flatItems.json', 'utf8', (err, data) => {
-    if(err){
-        console.log(err)
-        return
+// fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-cleaned-phase1-flatItems.json', 'utf8', (err, data) => {
+//     if(err){
+//         console.log(err)
+//         return
+//     }
+//     let flatItems = JSON.parse(data)
+//     fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-recipes-map.json', 'utf8', (error, recipeData)=>{
+//         if(error){
+//             console.log(error)
+//             return
+//         }
+//         let finalRelationshipMap = JSON.parse(recipeData)
+//         for (item of flatItems){
+//             if (finalRelationshipMap[item['name']]){
+//                 item['isMadeOf'] = finalRelationshipMap[item['name']]
+//             }else{
+//                 item['isMadeOf'] = []
+//             }
+//             console.log(finalRelationshipMap[item['name']],item)
+//         }
+//         fs.writeFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-with-relations.json', JSON.stringify(flatItems), err => {
+//             if(err){
+//                 console.log(err)
+//                 return
+//             }
+//         })
+//     })
+// })
+
+//4th phase of data integiration
+
+const items = require("../dota-item-cleaned-phase1.json");
+// slicing the first 16th catagories is meant to only get the items that are currently in the game.
+const currentlyAvailableItems = items.slice(1, 16).flat(Infinity);
+fs.writeFile(
+  "/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/flat-items-wo-relations.json",
+  JSON.stringify(currentlyAvailableItems),
+  (err) => {
+    if (err) {
+      console.log(err);
     }
-    let flatItems = JSON.parse(data)
-    fs.readFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-recipes-map.json', 'utf8', (error, recipeData)=>{
-        if(error){
-            console.log(error)
-            return
-        }
-        let finalRelationshipMap = JSON.parse(recipeData)
-        for (item of flatItems){
-            if (finalRelationshipMap[item['name']]){
-                item['isMadeOf'] = finalRelationshipMap[item['name']]
-            }else{
-                item['isMadeOf'] = []
-            }
-            console.log(finalRelationshipMap[item['name']],item)
-        }
-        fs.writeFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/dota-item-with-relations.json', JSON.stringify(flatItems), err => {
-            if(err){
-                console.log(err)
-                return
-            }
-        })
-    })
-})
+  }
+);

@@ -1,0 +1,1754 @@
+[
+  {
+    "name": "Iron Branch",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Iron_Branch",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a3/Iron_Branch_icon.png/revision/latest/",
+    "goldCost": "50"
+  },
+  {
+    "name": "Gauntlets of Strength",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Gauntlets_of_Strength",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/88/Gauntlets_of_Strength_icon.png/revision/latest/",
+    "goldCost": "140"
+  },
+  {
+    "name": "Mantle of Intelligence",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Mantle_of_Intelligence",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cf/Mantle_of_Intelligence_icon.png/revision/latest/",
+    "goldCost": "140"
+  },
+  {
+    "name": "Slippers of Agility",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Slippers_of_Agility",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5c/Slippers_of_Agility_icon.png/revision/latest/",
+    "goldCost": "140"
+  },
+  {
+    "name": "Circlet",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Circlet",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/28/Circlet_icon.png/revision/latest/",
+    "goldCost": "155"
+  },
+  {
+    "name": "Band of Elvenskin",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Band_of_Elvenskin",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/ca/Band_of_Elvenskin_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Belt of Strength",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Belt_of_Strength",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f6/Belt_of_Strength_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Crown",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Crown",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/46/Crown_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Robe of the Magi",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Robe_of_the_Magi",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b3/Robe_of_the_Magi_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Blade of Alacrity",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Blade_of_Alacrity",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a2/Blade_of_Alacrity_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Diadem",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Diadem",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/87/Diadem_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Ogre Axe",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Ogre_Axe",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/dd/Ogre_Axe_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Staff of Wizardry",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Attributes",
+    "itemURL": "https://dota2.fandom.com/wiki/Staff_of_Wizardry",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8a/Staff_of_Wizardry_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Quelling Blade",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Quelling_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/94/Quelling_Blade_icon.png/revision/latest/",
+    "goldCost": "100"
+  },
+  {
+    "name": "Ring of Protection",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Ring_of_Protection",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3b/Ring_of_Protection_icon.png/revision/latest/",
+    "goldCost": "175"
+  },
+  {
+    "name": "Infused Raindrops",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Infused_Raindrops",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d2/Infused_Raindrops_icon.png/revision/latest/",
+    "goldCost": "225"
+  },
+  {
+    "name": "Orb of Venom",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Orb_of_Venom",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/35/Orb_of_Venom_icon.png/revision/latest/",
+    "goldCost": "275"
+  },
+  {
+    "name": "Blight Stone",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Blight_Stone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/98/Blight_Stone_icon.png/revision/latest/",
+    "goldCost": "300"
+  },
+  {
+    "name": "Blades of Attack",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Blades_of_Attack",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Blades_of_Attack_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Gloves of Haste",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Gloves_of_Haste",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/16/Gloves_of_Haste_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Chainmail",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Chainmail",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f2/Chainmail_icon.png/revision/latest/",
+    "goldCost": "550"
+  },
+  {
+    "name": "Quarterstaff",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Quarterstaff",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Quarterstaff_icon.png/revision/latest/",
+    "goldCost": "875"
+  },
+  {
+    "name": "Helm of Iron Will",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Helm_of_Iron_Will",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f6/Helm_of_Iron_Will_icon.png/revision/latest/",
+    "goldCost": "975"
+  },
+  {
+    "name": "Blitz Knuckles",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Blitz_Knuckles",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8c/Blitz_Knuckles_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Broadsword",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Broadsword",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3e/Broadsword_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Javelin",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Javelin",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Javelin_icon.png/revision/latest/",
+    "goldCost": "1100"
+  },
+  {
+    "name": "Cornucopia",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Cornucopia",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/20/Cornucopia_icon.png/revision/latest/",
+    "goldCost": "1200"
+  },
+  {
+    "name": "Claymore",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Claymore",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/49/Claymore_icon.png/revision/latest/",
+    "goldCost": "1350"
+  },
+  {
+    "name": "Mithril Hammer",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Equipment",
+    "itemURL": "https://dota2.fandom.com/wiki/Mithril_Hammer",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d5/Mithril_Hammer_icon.png/revision/latest/",
+    "goldCost": "1600"
+  },
+  {
+    "name": "Ring of Regen",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Ring_of_Regen",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6d/Ring_of_Regen_icon.png/revision/latest/",
+    "goldCost": "175"
+  },
+  {
+    "name": "Sage's Mask",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Sage%27s_Mask",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c6/Sage%27s_Mask_icon.png/revision/latest/",
+    "goldCost": "175"
+  },
+  {
+    "name": "Magic Stick",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Magic_Stick",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/59/Magic_Stick_icon.png/revision/latest/",
+    "goldCost": "200"
+  },
+  {
+    "name": "Fluffy Hat",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Fluffy_Hat",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b5/Fluffy_Hat_icon.png/revision/latest/",
+    "goldCost": "250"
+  },
+  {
+    "name": "Wind Lace",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Wind_Lace",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/91/Wind_Lace_icon.png/revision/latest/",
+    "goldCost": "250"
+  },
+  {
+    "name": "Boots of Speed",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Boots_of_Speed",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/97/Boots_of_Speed_icon.png/revision/latest/",
+    "goldCost": "500"
+  },
+  {
+    "name": "Voodoo Mask",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Voodoo_Mask",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/60/Voodoo_Mask_icon.png/revision/latest/",
+    "goldCost": "700"
+  },
+  {
+    "name": "Cloak",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Cloak",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/21/Cloak_icon.png/revision/latest/",
+    "goldCost": "800"
+  },
+  {
+    "name": "Gem of True Sight",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Gem_of_True_Sight",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1d/Gem_of_True_Sight_icon.png/revision/latest/",
+    "goldCost": "900"
+  },
+  {
+    "name": "Morbid Mask",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Morbid_Mask",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Morbid_Mask_icon.png/revision/latest/",
+    "goldCost": "900"
+  },
+  {
+    "name": "Shadow Amulet",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Shadow_Amulet",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/07/Shadow_Amulet_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Ghost Scepter",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Ghost_Scepter",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9d/Ghost_Scepter_icon.png/revision/latest/",
+    "goldCost": "1500"
+  },
+  {
+    "name": "Blink Dagger",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Miscellaneous",
+    "itemURL": "https://dota2.fandom.com/wiki/Blink_Dagger",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4c/Blink_Dagger_icon.png/revision/latest/",
+    "goldCost": "2250"
+  },
+  {
+    "name": "Ring of Health",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Ring_of_Health",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/29/Ring_of_Health_icon.png/revision/latest/",
+    "goldCost": "700"
+  },
+  {
+    "name": "Void Stone",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Void_Stone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6b/Void_Stone_icon.png/revision/latest/",
+    "goldCost": "700"
+  },
+  {
+    "name": "Energy Booster",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Energy_Booster",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/72/Energy_Booster_icon.png/revision/latest/",
+    "goldCost": "800"
+  },
+  {
+    "name": "Vitality Booster",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Vitality_Booster",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1c/Vitality_Booster_icon.png/revision/latest/",
+    "goldCost": "1000"
+  },
+  {
+    "name": "Point Booster",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Point_Booster",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/57/Point_Booster_icon.png/revision/latest/",
+    "goldCost": "1200"
+  },
+  {
+    "name": "Talisman of Evasion",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Talisman_of_Evasion",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/37/Talisman_of_Evasion_icon.png/revision/latest/",
+    "goldCost": "1300"
+  },
+  {
+    "name": "Platemail",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Platemail",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4f/Platemail_icon.png/revision/latest/",
+    "goldCost": "1400"
+  },
+  {
+    "name": "Hyperstone",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Hyperstone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6a/Hyperstone_icon.png/revision/latest/",
+    "goldCost": "2000"
+  },
+  {
+    "name": "Ultimate Orb",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Ultimate_Orb",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/14/Ultimate_Orb_icon.png/revision/latest/",
+    "goldCost": "2050"
+  },
+  {
+    "name": "Demon Edge",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Demon_Edge",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/ba/Demon_Edge_icon.png/revision/latest/",
+    "goldCost": "2200"
+  },
+  {
+    "name": "Eaglesong",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Eaglesong",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9a/Eaglesong_icon.png/revision/latest/",
+    "goldCost": "2800"
+  },
+  {
+    "name": "Mystic Staff",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Mystic_Staff",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/29/Mystic_Staff_icon.png/revision/latest/",
+    "goldCost": "2800"
+  },
+  {
+    "name": "Reaver",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Reaver",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/37/Reaver_icon.png/revision/latest/",
+    "goldCost": "2800"
+  },
+  {
+    "name": "Sacred Relic",
+    "mainCatagory": "Basics Items",
+    "subCatagory": "Secret",
+    "itemURL": "https://dota2.fandom.com/wiki/Sacred_Relic",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7c/Sacred_Relic_icon.png/revision/latest/",
+    "goldCost": "3400"
+  },
+  {
+    "name": "Magic Wand",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Magic_Wand",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/74/Magic_Wand_icon.png/revision/latest/",
+    "goldCost": "450"
+  },
+  {
+    "name": "Bracer",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Bracer",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6e/Bracer_icon.png/revision/latest/",
+    "goldCost": "505"
+  },
+  {
+    "name": "Null Talisman",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Null_Talisman",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/90/Null_Talisman_icon.png/revision/latest/",
+    "goldCost": "505"
+  },
+  {
+    "name": "Wraith Band",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Wraith_Band",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/55/Wraith_Band_icon.png/revision/latest/",
+    "goldCost": "505"
+  },
+  {
+    "name": "Soul Ring",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Soul_Ring",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a6/Soul_Ring_icon.png/revision/latest/",
+    "goldCost": "855"
+  },
+  {
+    "name": "Orb of Corrosion",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Orb_of_Corrosion",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/97/Orb_of_Corrosion_icon.png/revision/latest/",
+    "goldCost": "925"
+  },
+  {
+    "name": "Falcon Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Falcon_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4a/Falcon_Blade_icon.png/revision/latest/",
+    "goldCost": "1125"
+  },
+  {
+    "name": "Perseverance",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Perseverance",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fb/Perseverance_icon.png/revision/latest/",
+    "goldCost": "1400"
+  },
+  {
+    "name": "Power Treads",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Power_Treads",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6b/Power_Treads_icon.png/revision/latest/",
+    "goldCost": "1400"
+  },
+  {
+    "name": "Oblivion Staff",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Oblivion_Staff",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7b/Oblivion_Staff_icon.png/revision/latest/",
+    "goldCost": "1500"
+  },
+  {
+    "name": "Phase Boots",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Phase_Boots",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/98/Phase_Boots_icon.png/revision/latest/",
+    "goldCost": "1500"
+  },
+  {
+    "name": "Mask of Madness",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Mask_of_Madness",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Mask_of_Madness_icon.png/revision/latest/",
+    "goldCost": "1775"
+  },
+  {
+    "name": "Hand of Midas",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Hand_of_Midas",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5b/Hand_of_Midas_icon.png/revision/latest/",
+    "goldCost": "2200"
+  },
+  {
+    "name": "Boots of Travel",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Boots_of_Travel",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6d/Boots_of_Travel_1_icon.png/revision/latest/",
+    "goldCost": "2500"
+  },
+  {
+    "name": "Helm of the Dominator",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Helm_of_the_Dominator",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/97/Helm_of_the_Dominator_icon.png/revision/latest/",
+    "goldCost": "2625"
+  },
+  {
+    "name": "Moon Shard",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Moon_Shard",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/21/Moon_Shard_icon.png/revision/latest/",
+    "goldCost": "4000"
+  },
+  {
+    "name": "Helm of the Overlord",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Accessories",
+    "itemURL": "https://dota2.fandom.com/wiki/Helm_of_the_Overlord",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f8/Helm_of_the_Overlord_icon.png/revision/latest/",
+    "goldCost": "6175"
+  },
+  {
+    "name": "Buckler",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Buckler",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ae/Buckler_%28Inactive%29_icon.png/revision/latest/",
+    "goldCost": "425"
+  },
+  {
+    "name": "Headdress",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Headdress",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/03/Headdress_icon.png/revision/latest/",
+    "goldCost": "425"
+  },
+  {
+    "name": "Ring of Basilius",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Ring_of_Basilius",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/26/Ring_of_Basilius_%28Active%29_icon.png/revision/latest/",
+    "goldCost": "425"
+  },
+  {
+    "name": "Urn of Shadows",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Urn_of_Shadows",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/58/Urn_of_Shadows_icon.png/revision/latest/",
+    "goldCost": "880"
+  },
+  {
+    "name": "Tranquil Boots",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Tranquil_Boots",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/23/Tranquil_Boots_%28Active%29_icon.png/revision/latest/",
+    "goldCost": "925"
+  },
+  {
+    "name": "Medallion of Courage",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Medallion_of_Courage",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d9/Medallion_of_Courage_icon.png/revision/latest/",
+    "goldCost": "1025"
+  },
+  {
+    "name": "Arcane Boots",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Arcane_Boots",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/be/Arcane_Boots_icon.png/revision/latest/",
+    "goldCost": "1300"
+  },
+  {
+    "name": "Pavise",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Pavise",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2f/Pavise_icon.png/revision/latest/",
+    "goldCost": "1400"
+  },
+  {
+    "name": "Drum of Endurance",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Drum_of_Endurance",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/91/Drum_of_Endurance_icon.png/revision/latest/",
+    "goldCost": "1650"
+  },
+  {
+    "name": "Mekansm",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Mekansm",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f7/Mekansm_icon.png/revision/latest/",
+    "goldCost": "1775"
+  },
+  {
+    "name": "Holy Locket",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Holy_Locket",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/48/Holy_Locket_icon.png/revision/latest/",
+    "goldCost": "2400"
+  },
+  {
+    "name": "Vladmir's Offering",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Vladmir%27s_Offering",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/28/Vladmir%27s_Offering_icon.png/revision/latest/",
+    "goldCost": "2450"
+  },
+  {
+    "name": "Spirit Vessel",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Spirit_Vessel",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2a/Spirit_Vessel_icon.png/revision/latest/",
+    "goldCost": "2980"
+  },
+  {
+    "name": "Pipe of Insight",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Pipe_of_Insight",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/76/Pipe_of_Insight_icon.png/revision/latest/",
+    "goldCost": "3375"
+  },
+  {
+    "name": "Boots of Bearing",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Boots_of_Bearing",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e9/Boots_of_Bearing_icon.png/revision/latest/",
+    "goldCost": "4075"
+  },
+  {
+    "name": "Guardian Greaves",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Support",
+    "itemURL": "https://dota2.fandom.com/wiki/Guardian_Greaves",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/94/Guardian_Greaves_icon.png/revision/latest/",
+    "goldCost": "4950"
+  },
+  {
+    "name": "Veil of Discord",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Veil_of_Discord",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f2/Veil_of_Discord_icon.png/revision/latest/",
+    "goldCost": "1525"
+  },
+  {
+    "name": "Glimmer Cape",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Glimmer_Cape",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/ce/Glimmer_Cape_icon.png/revision/latest/",
+    "goldCost": "2150"
+  },
+  {
+    "name": "Force Staff",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Force_Staff",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a2/Force_Staff_icon.png/revision/latest/",
+    "goldCost": "2200"
+  },
+  {
+    "name": "Aether Lens",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Aether_Lens",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d4/Aether_Lens_icon.png/revision/latest/",
+    "goldCost": "2275"
+  },
+  {
+    "name": "Solar Crest",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Solar_Crest",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/36/Solar_Crest_icon.png/revision/latest/",
+    "goldCost": "2425"
+  },
+  {
+    "name": "Witch Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Witch_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/68/Witch_Blade_icon.png/revision/latest/",
+    "goldCost": "2600"
+  },
+  {
+    "name": "Eul's Scepter of Divinity",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Eul%27s_Scepter_of_Divinity",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/80/Eul%27s_Scepter_of_Divinity_icon.png/revision/latest/",
+    "goldCost": "2725"
+  },
+  {
+    "name": "Rod of Atos",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Rod_of_Atos",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/66/Rod_of_Atos_icon.png/revision/latest/",
+    "goldCost": "2750"
+  },
+  {
+    "name": "Dagon",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Dagon",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/bc/Dagon_1_icon.png/revision/latest/",
+    "goldCost": "2850"
+  },
+  {
+    "name": "Orchid Malevolence",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Orchid_Malevolence",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ad/Orchid_Malevolence_icon.png/revision/latest/",
+    "goldCost": "3475"
+  },
+  {
+    "name": "Aghanim's Scepter",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Aghanim%27s_Scepter",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/07/Aghanim%27s_Scepter_icon.png/revision/latest/",
+    "goldCost": "4200"
+  },
+  {
+    "name": "Octarine Core",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Octarine_Core",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Octarine_Core_icon.png/revision/latest/",
+    "goldCost": "4600"
+  },
+  {
+    "name": "Refresher Orb",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Refresher_Orb",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/e2/Refresher_Orb_icon.png/revision/latest/",
+    "goldCost": "5000"
+  },
+  {
+    "name": "Scythe of Vyse",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Scythe_of_Vyse",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/54/Scythe_of_Vyse_icon.png/revision/latest/",
+    "goldCost": "5550"
+  },
+  {
+    "name": "Aghanim's Blessing",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Aghanim%27s_Blessing",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/24/Aghanim%27s_Blessing_icon.png/revision/latest/",
+    "goldCost": "5800"
+  },
+  {
+    "name": "Gleipnir",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Gleipnir",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5d/Gleipnir_icon.png/revision/latest/",
+    "goldCost": "6150"
+  },
+  {
+    "name": "Wind Waker",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Magical",
+    "itemURL": "https://dota2.fandom.com/wiki/Wind_Waker",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/90/Wind_Waker_icon.png/revision/latest/",
+    "goldCost": "6825"
+  },
+  {
+    "name": "Vanguard",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Vanguard",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ab/Vanguard_icon.png/revision/latest/",
+    "goldCost": "1700"
+  },
+  {
+    "name": "Blade Mail",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Blade_Mail",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/18/Blade_Mail_icon.png/revision/latest/",
+    "goldCost": "2100"
+  },
+  {
+    "name": "Aeon Disk",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Aeon_Disk",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2b/Aeon_Disk_icon.png/revision/latest/",
+    "goldCost": "3000"
+  },
+  {
+    "name": "Soul Booster",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Soul_Booster",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2f/Soul_Booster_icon.png/revision/latest/",
+    "goldCost": "3000"
+  },
+  {
+    "name": "Eternal Shroud",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Eternal_Shroud",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c5/Eternal_Shroud_icon.png/revision/latest/",
+    "goldCost": "3300"
+  },
+  {
+    "name": "Crimson Guard",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Crimson_Guard",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/70/Crimson_Guard_icon.png/revision/latest/",
+    "goldCost": "3600"
+  },
+  {
+    "name": "Lotus Orb",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Lotus_Orb",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c8/Lotus_Orb_icon.png/revision/latest/",
+    "goldCost": "3850"
+  },
+  {
+    "name": "Black King Bar",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Black_King_Bar",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/72/Black_King_Bar_icon.png/revision/latest/",
+    "goldCost": "4050"
+  },
+  {
+    "name": "Bloodstone",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Bloodstone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5a/Bloodstone_icon.png/revision/latest/",
+    "goldCost": "4400"
+  },
+  {
+    "name": "Hurricane Pike",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Hurricane_Pike",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/13/Hurricane_Pike_icon.png/revision/latest/",
+    "goldCost": "4450"
+  },
+  {
+    "name": "Linken's Sphere",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Linken%27s_Sphere",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/23/Linken%27s_Sphere_icon.png/revision/latest/",
+    "goldCost": "4600"
+  },
+  {
+    "name": "Manta Style",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Manta_Style",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/84/Manta_Style_icon.png/revision/latest/",
+    "goldCost": "4600"
+  },
+  {
+    "name": "Shiva's Guard",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Shiva%27s_Guard",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b6/Shiva%27s_Guard_icon.png/revision/latest/",
+    "goldCost": "4850"
+  },
+  {
+    "name": "Heart of Tarrasque",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Heart_of_Tarrasque",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/75/Heart_of_Tarrasque_icon.png/revision/latest/",
+    "goldCost": "5000"
+  },
+  {
+    "name": "Assault Cuirass",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Armor",
+    "itemURL": "https://dota2.fandom.com/wiki/Assault_Cuirass",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d3/Assault_Cuirass_icon.png/revision/latest/",
+    "goldCost": "5125"
+  },
+  {
+    "name": "Crystalys",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Crystalys",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3f/Crystalys_icon.png/revision/latest/",
+    "goldCost": "1950"
+  },
+  {
+    "name": "Meteor Hammer",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Meteor_Hammer",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/54/Meteor_Hammer_icon.png/revision/latest/",
+    "goldCost": "2400"
+  },
+  {
+    "name": "Armlet of Mordiggian",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Armlet_of_Mordiggian",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8d/Armlet_of_Mordiggian_%28Inactive%29_icon.png/revision/latest/",
+    "goldCost": "2500"
+  },
+  {
+    "name": "Skull Basher",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Skull_Basher",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9d/Skull_Basher_icon.png/revision/latest/",
+    "goldCost": "2875"
+  },
+  {
+    "name": "Shadow Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Shadow_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/0f/Shadow_Blade_icon.png/revision/latest/",
+    "goldCost": "3000"
+  },
+  {
+    "name": "Desolator",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Desolator",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/84/Desolator_icon.png/revision/latest/",
+    "goldCost": "3500"
+  },
+  {
+    "name": "Battle Fury",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Battle_Fury",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c1/Battle_Fury_icon.png/revision/latest/",
+    "goldCost": "4100"
+  },
+  {
+    "name": "Nullifier",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Nullifier",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/bc/Nullifier_icon.png/revision/latest/",
+    "goldCost": "4375"
+  },
+  {
+    "name": "Ethereal Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Ethereal_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5b/Ethereal_Blade_icon.png/revision/latest/",
+    "goldCost": "4650"
+  },
+  {
+    "name": "Radiance",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Radiance",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/df/Radiance_%28Active%29_icon.png/revision/latest/",
+    "goldCost": "4700"
+  },
+  {
+    "name": "Butterfly",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Butterfly",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/28/Butterfly_icon.png/revision/latest/",
+    "goldCost": "4975"
+  },
+  {
+    "name": "Monkey King Bar",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Monkey_King_Bar",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b0/Monkey_King_Bar_icon.png/revision/latest/",
+    "goldCost": "4975"
+  },
+  {
+    "name": "Daedalus",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Daedalus",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/24/Daedalus_icon.png/revision/latest/",
+    "goldCost": "5150"
+  },
+  {
+    "name": "Silver Edge",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Silver_Edge",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/91/Silver_Edge_icon.png/revision/latest/",
+    "goldCost": "5450"
+  },
+  {
+    "name": "Disperser",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Disperser",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/65/Disperser_icon.png/revision/latest/",
+    "goldCost": "5700"
+  },
+  {
+    "name": "Divine Rapier",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Divine_Rapier",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b1/Divine_Rapier_icon.png/revision/latest/",
+    "goldCost": "5950"
+  },
+  {
+    "name": "Revenant's Brooch",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Revenant%27s_Brooch",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/37/Revenant%27s_Brooch_icon.png/revision/latest/",
+    "goldCost": "6200"
+  },
+  {
+    "name": "Abyssal Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Abyssal_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3b/Abyssal_Blade_icon.png/revision/latest/",
+    "goldCost": "6250"
+  },
+  {
+    "name": "Bloodthorn",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Weapons",
+    "itemURL": "https://dota2.fandom.com/wiki/Bloodthorn",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f4/Bloodthorn_icon.png/revision/latest/",
+    "goldCost": "6700"
+  },
+  {
+    "name": "Dragon Lance",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Dragon_Lance",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/db/Dragon_Lance_icon.png/revision/latest/",
+    "goldCost": "1900"
+  },
+  {
+    "name": "Kaya",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Kaya",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/65/Kaya_icon.png/revision/latest/",
+    "goldCost": "2050"
+  },
+  {
+    "name": "Sange",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Sange",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fc/Sange_icon.png/revision/latest/",
+    "goldCost": "2050"
+  },
+  {
+    "name": "Yasha",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Yasha",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/d1/Yasha_icon.png/revision/latest/",
+    "goldCost": "2050"
+  },
+  {
+    "name": "Phylactery",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Phylactery",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8c/Phylactery_icon.png/revision/latest/",
+    "goldCost": "2375"
+  },
+  {
+    "name": "Diffusal Blade",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Diffusal_Blade",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/65/Diffusal_Blade_1_icon.png/revision/latest/",
+    "goldCost": "2500"
+  },
+  {
+    "name": "Echo Sabre",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Echo_Sabre",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6b/Echo_Sabre_icon.png/revision/latest/",
+    "goldCost": "2500"
+  },
+  {
+    "name": "Mage Slayer",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Mage_Slayer",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/18/Mage_Slayer_icon.png/revision/latest/",
+    "goldCost": "2500"
+  },
+  {
+    "name": "Maelstrom",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Maelstrom",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/65/Maelstrom_icon.png/revision/latest/",
+    "goldCost": "2700"
+  },
+  {
+    "name": "Heaven's Halberd",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Heaven%27s_Halberd",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c6/Heaven%27s_Halberd_icon.png/revision/latest/",
+    "goldCost": "3550"
+  },
+  {
+    "name": "Kaya and Sange",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Kaya_and_Sange",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/67/Kaya_and_Sange_icon.png/revision/latest/",
+    "goldCost": "4100"
+  },
+  {
+    "name": "Sange and Yasha",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Sange_and_Yasha",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b4/Sange_and_Yasha_icon.png/revision/latest/",
+    "goldCost": "4100"
+  },
+  {
+    "name": "Yasha and Kaya",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Yasha_and_Kaya",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/19/Yasha_and_Kaya_icon.png/revision/latest/",
+    "goldCost": "4100"
+  },
+  {
+    "name": "Harpoon",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Harpoon",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3c/Harpoon_icon.png/revision/latest/",
+    "goldCost": "4500"
+  },
+  {
+    "name": "Satanic",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Satanic",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/dd/Satanic_icon.png/revision/latest/",
+    "goldCost": "5050"
+  },
+  {
+    "name": "Eye of Skadi",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Eye_of_Skadi",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1e/Eye_of_Skadi_icon.png/revision/latest/",
+    "goldCost": "5300"
+  },
+  {
+    "name": "Mjollnir",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Mjollnir",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9d/Mjollnir_icon.png/revision/latest/",
+    "goldCost": "5500"
+  },
+  {
+    "name": "Arcane Blink",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Arcane_Blink",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/28/Arcane_Blink_icon.png/revision/latest/",
+    "goldCost": "6800"
+  },
+  {
+    "name": "Overwhelming Blink",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Overwhelming_Blink",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/6d/Overwhelming_Blink_icon.png/revision/latest/",
+    "goldCost": "6800"
+  },
+  {
+    "name": "Swift Blink",
+    "mainCatagory": "Upgraded Items",
+    "subCatagory": "Artifacts",
+    "itemURL": "https://dota2.fandom.com/wiki/Swift_Blink",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/47/Swift_Blink_icon.png/revision/latest/",
+    "goldCost": "6800"
+  },
+  {
+    "name": "Arcane Ring",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Arcane_Ring",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ad/Arcane_Ring_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Broom Handle",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Broom_Handle",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3a/Broom_Handle_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Duelist Gloves",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Duelist_Gloves",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f9/Duelist_Gloves_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Faded Broach",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Faded_Broach",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/57/Faded_Broach_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Fairy's Trinket",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Fairy%27s_Trinket",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f3/Fairy%27s_Trinket_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Lance of Pursuit",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Lance_of_Pursuit",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/99/Lance_of_Pursuit_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Occult Bracelet",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Occult_Bracelet",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ac/Occult_Bracelet_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Pig Pole",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Pig_Pole",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/98/Pig_Pole_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Seeds of Serenity",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Seeds_of_Serenity",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ac/Seeds_of_Serenity_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Spark of Courage",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Spark_of_Courage",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1d/Spark_of_Courage_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Trusty Shovel",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Trusty_Shovel",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b5/Trusty_Shovel_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Tumbler's Toy",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 1",
+    "itemURL": "https://dota2.fandom.com/wiki/Tumbler%27s_Toy",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/60/Tumbler%27s_Toy_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Bullwhip",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Bullwhip",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/1e/Bullwhip_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Dragon Scale",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Dragon_Scale",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c5/Dragon_Scale_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Eye of the Vizier",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Eye_of_the_Vizier",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/42/Eye_of_the_Vizier_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Gossamer Cape",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Gossamer_Cape",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/94/Gossamer_Cape_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Grove Bow",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Grove_Bow",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/57/Grove_Bow_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Orb of Destruction",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Orb_of_Destruction",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/be/Orb_of_Destruction_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Philosopher's Stone",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Philosopher%27s_Stone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/ac/Philosopher%27s_Stone_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Pupil's Gift",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Pupil%27s_Gift",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f0/Pupil%27s_Gift_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ring of Aquila",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Ring_of_Aquila",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/3f/Ring_of_Aquila_%28Active%29_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Specialist's Array",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Specialist%27s_Array",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/ed/Specialist%27s_Array_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Vambrace",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Vambrace",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/b/b4/Vambrace_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Vampire Fangs",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 2",
+    "itemURL": "https://dota2.fandom.com/wiki/Vampire_Fangs",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/3/32/Vampire_Fangs_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ceremonial Robe",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Ceremonial_Robe",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/dd/Ceremonial_Robe_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Cloak of Flames",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Cloak_of_Flames",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8d/Cloak_of_Flames_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Dandelion Amulet",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Dandelion_Amulet",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/55/Dandelion_Amulet_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Defiant Shell",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Defiant_Shell",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a4/Defiant_Shell_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Elven Tunic",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Elven_Tunic",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/05/Elven_Tunic_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Enchanted Quiver",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Enchanted_Quiver",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/a/a3/Enchanted_Quiver_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ogre Seal Totem",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Ogre_Seal_Totem",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4a/Ogre_Seal_Totem_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Paladin Sword",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Paladin_Sword",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cf/Paladin_Sword_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Psychic Headband",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Psychic_Headband",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/f3/Psychic_Headband_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Quickening Charm",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Quickening_Charm",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4c/Quickening_Charm_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Titan Sliver",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Titan_Sliver",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/94/Titan_Sliver_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Vindicator's Axe",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 3",
+    "itemURL": "https://dota2.fandom.com/wiki/Vindicator%27s_Axe",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/9c/Vindicator%27s_Axe_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ascetic's Cap",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Ascetic%27s_Cap",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/63/Ascetic%27s_Cap_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Havoc Hammer",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Havoc_Hammer",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fb/Havoc_Hammer_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Martyr's Plate",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Martyr%27s_Plate",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fb/Martyr%27s_Plate_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Mind Breaker",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Mind_Breaker",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/2/2e/Mind_Breaker_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ninja Gear",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Ninja_Gear",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/4/4d/Ninja_Gear_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Penta-Edged Sword",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Penta-Edged_Sword",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/d/db/Penta-Edged_Sword_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Spell Prism",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Spell_Prism",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/75/Spell_Prism_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Stormcrafter",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Stormcrafter",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/e/eb/Stormcrafter_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Telescope",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Telescope",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/f/fe/Telescope_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Timeless Relic",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Timeless_Relic",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/5e/Timeless_Relic_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Trickster Cloak",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 4",
+    "itemURL": "https://dota2.fandom.com/wiki/Trickster_Cloak",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/53/Trickster_Cloak_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Apex",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Apex",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/9/91/Apex_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Arcanist's Armor",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Arcanist%27s_Armor",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/cc/Arcanist%27s_Armor_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Book of Shadows",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Book_of_Shadows",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/5/54/Book_of_Shadows_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Book of the Dead",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Book_of_the_Dead",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/0/00/Book_of_the_Dead_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Ex Machina",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Ex_Machina",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c3/Ex_Machina_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Fallen Sky",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Fallen_Sky",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/1/17/Fallen_Sky_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Force Boots",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Force_Boots",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/6/62/Force_Boots_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Giant's Ring",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Giant%27s_Ring",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/7/7b/Giant%27s_Ring_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Mirror Shield",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Mirror_Shield",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c5/Mirror_Shield_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Pirate Hat",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Pirate_Hat",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/8f/Pirate_Hat_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Seer Stone",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Seer_Stone",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/c/c2/Seer_Stone_icon.png/revision/latest/",
+    "goldCost": "0"
+  },
+  {
+    "name": "Stygian Desolator",
+    "mainCatagory": "Neutral Items",
+    "subCatagory": "Tier 5",
+    "itemURL": "https://dota2.fandom.com/wiki/Stygian_Desolator",
+    "thumbnailURL": "https://static.wikia.nocookie.net/dota2_gamepedia/images/8/83/Stygian_Desolator_icon.png/revision/latest/",
+    "goldCost": "0"
+  }
+]
