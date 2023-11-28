@@ -144,7 +144,6 @@ const fs = require("fs");
 // }
 // console.log(sampleResult)
 
-
 //-------------------------------------------------------------
 //  7th phase of data integration of real data
 //  adding relations between items as 2 type of relationships
@@ -153,29 +152,33 @@ const fs = require("fs");
 let items = require("./flat-items-wo-relations.json");
 const relations = require("./flat-items-relations-map.json");
 
-for(const item of items){
-    let isMadeOf = []
-    let canMake = []
-    const itemName = item['name']
-    console.log(itemName)
-    if(item['mainCatagory'] == 'Neutral Items'){
-        item['canMake'] = canMake
-        item['isMadeOf'] = isMadeOf
-        continue
-    }
-    let itemRelations = relations[itemName]
-    const itemIndex = itemRelations.indexOf(itemName);
-    isMadeOf = itemRelations.splice(itemIndex+1)
-    if(itemRelations.length > 0){
-        itemRelations.pop()
-    }
-    canMake = itemRelations
-    item['canMake'] = canMake
-    item['isMadeOf'] = isMadeOf
+for (const item of items) {
+  let isMadeOf = [];
+  let canMake = [];
+  const itemName = item["name"];
+  console.log(itemName);
+  if (item["mainCatagory"] == "Neutral Items") {
+    item["canMake"] = canMake;
+    item["isMadeOf"] = isMadeOf;
+    continue;
+  }
+  let itemRelations = relations[itemName];
+  const itemIndex = itemRelations.indexOf(itemName);
+  isMadeOf = itemRelations.splice(itemIndex + 1);
+  if (itemRelations.length > 0) {
+    itemRelations.pop();
+  }
+  canMake = itemRelations;
+  item["canMake"] = canMake;
+  item["isMadeOf"] = isMadeOf;
 }
-fs.writeFile('/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/final-items-with-relations.json', JSON.stringify(items), err => {
-    if(err){
-        console.log(err)
-        return;
+fs.writeFile(
+  "/home/pathfinder/Desktop/working-projects/dota2-items/dota2-items-data-scraping-puppeteer/items-with-relations/final-items-with-relations.json",
+  JSON.stringify(items),
+  (err) => {
+    if (err) {
+      console.log(err);
+      return;
     }
-})
+  }
+);
