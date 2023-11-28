@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "neo4j-driver": "^5.15.0",
     "puppeteer": "^19.11.1"
   }
 }
